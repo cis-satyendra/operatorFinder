@@ -13,7 +13,7 @@ Run the bundle command to install it.
 
 After you install OperatorFinder and add it to your Gemfile, you need to run the generator:
 
-``` rails generate operator_finder:instal ```
+``` rails generate operator_finder:install ```
 
 The generator will install an initializer which describes jolo api token configuration option. It is imperative that you take a look at it and add your jolo api token. You can create jolo api token by using https://joloapi.com. When you are done, you are ready to use OperatorFinder.
 
