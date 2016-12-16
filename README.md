@@ -1,7 +1,7 @@
 # OperatorFinder
 
 Operator Finder is a flixable solution for finding mobile operator and its circle.
-Our gem using Pay2All api for finding mobile operator and its circle.
+Our gem using JOLO api for finding mobile operator and its circle.
 
 ## Getting started
 
@@ -15,7 +15,7 @@ After you install OperatorFinder and add it to your Gemfile, you need to run the
 
 ``` rails generate operator_finder:instal ```
 
-The generator will install an initializer which describes pay2all api token configuration option. It is imperative that you take a look at it and add your pay2all api token. When you are done, you are ready to use OperatorFinder.
+The generator will install an initializer which describes jolo api token configuration option. It is imperative that you take a look at it and add your jolo api token. You can create jolo api token by using https://joloapi.com. When you are done, you are ready to use OperatorFinder.
 
 
 ## License
